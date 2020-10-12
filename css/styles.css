@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
 }
+
 .bg-img {
   background-image: url(../images/banner-v6.jpg);
 
@@ -17,18 +18,23 @@ body {
 .banner-container {
   position: absolute;
   width: 100%;
-  top: 45%;
+  bottom: 45%;
 }
 
 div {
   /* background-color: cadetblue; */
 }
 h1 {
+  color: #38adc2;
   /* background-color: white; */
+  font-size: 2.75rem;
   font-family: "Expletus Sans", cursive;
   margin: 0;
 }
 h3 {
+  color: #38adc2;
+  font-size: 1.5rem;
+  font-family: "Expletus Sans", cursive;
   margin: 0;
 }
 hr {
@@ -37,13 +43,40 @@ hr {
   border-width: 10px;
   width: 10%;
 }
+.logo-light {
+  height: 5rem;
+  width: 5rem;
+}
+.my-bg {
+  /* justify-items: left; */
+  margin: 50px auto;
+  width: 50%;
+  text-align: left;
+}
+.my-bg-imgs {
+  display: inline-block;
+  /* float: left; */
+  /* height: 10rem; */
+  margin: auto 3% auto 0;
+  width: 15%;
+}
+.my-bg-content {
+  display: inline-block;
+  width: 80%;
+}
+.my-bg-p {
+  line-height: 2;
+}
 .project-container {
   background-color: white;
   height: 100vh;
   width: 100vw;
 }
+p {
+  font-family: "Raleway", sans-serif;
+}
 .subtitle {
-  color: #bdd7db;
+  color: #d0e9ec;
   font-size: 1.875rem;
   font-family: "Raleway", sans-serif;
   /* font-family: "Expletus Sans", cursive; */
