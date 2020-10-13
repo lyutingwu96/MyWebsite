@@ -21,29 +21,28 @@ body {
   top: 35%;
 }
 .bottom-container {
+  /* position: absolute;
+  bottom: 0; */
   background-color: #8ac6d1;
-  height: 200px;
+  height: 100px;
+  text-align: center;
+  width: 100%;
 }
 .copyright {
   color: white;
-  position: relative;
-  top: 80px;
 }
 div {
   /* background-color: cadetblue; */
 }
-.footer-link {
+.footers {
   position: relative;
-  top: 70px;
+  top: 10px;
 }
-/* .greet-container {
-  background-color: #38adc2;
-  border-radius: 10px;
-  
-  padding: 20px;
-  text-align: left;
-  width: fit-content;
-}*/
+.footer-link {
+  /* position: relative; */
+  /* top: 70px; */
+}
+
 .greet {
   color: lightcoral;
 }
@@ -115,6 +114,7 @@ p {
   position: relative;
   top: 20px;
   left: 30px;
+  width: fit-content;
 }
 .page-header a {
   color: inherit;
