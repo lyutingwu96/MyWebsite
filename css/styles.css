@@ -20,14 +20,44 @@ body {
   width: 100%;
   top: 35%;
 }
-
+.bottom-container {
+  background-color: #8ac6d1;
+  height: 200px;
+}
+.copyright {
+  color: white;
+  position: relative;
+  top: 80px;
+}
 div {
   /* background-color: cadetblue; */
+}
+.footer-link {
+  position: relative;
+  top: 70px;
+}
+/* .greet-container {
+  background-color: #38adc2;
+  border-radius: 10px;
+  
+  padding: 20px;
+  text-align: left;
+  width: fit-content;
+}*/
+.greet {
+  color: lightcoral;
 }
 h1 {
   color: #38adc2;
   /* background-color: white; */
   font-size: 2.75rem;
+  font-family: "Expletus Sans", cursive;
+  margin: 0;
+}
+h2 {
+  color: #38adc2;
+  /* background-color: white; */
+  font-size: 2rem;
   font-family: "Expletus Sans", cursive;
   margin: 0;
 }
@@ -47,25 +77,31 @@ hr {
   height: 5rem;
   width: 5rem;
 }
+.my-img {
+  /* background-color: lightcoral; */
+  /* padding: 50px 0; */
+  margin: 0px 90px 50px 0;
+  height: 60vh;
+}
+
 .my-bg {
-  /* justify-items: left; */
-  margin: 50px auto;
-  width: 50%;
-  text-align: left;
+  margin: 25px auto 0;
 }
-.my-bg-imgs {
-  display: inline-block;
-  /* float: left; */
-  /* height: 10rem; */
-  margin: auto 3% auto 0;
-  width: 15%;
-}
+
 .my-bg-content {
   display: inline-block;
-  width: 80%;
 }
 .my-bg-p {
   line-height: 2;
+}
+.middle-container {
+  margin: auto;
+  padding: 35px 0;
+}
+.profile {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
 }
 .project-container {
   background-color: white;
@@ -74,6 +110,25 @@ hr {
 }
 p {
   font-family: "Raleway", sans-serif;
+}
+.page-header {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.page-header a {
+  color: inherit;
+  position: relative;
+  text-decoration: inherit;
+}
+.page-header a img {
+  height: 40px;
+  margin: 0px 20px 0 0;
+  widows: 40px;
+}
+.page-header a span {
+  position: relative;
+  top: -10px;
 }
 .subtitle {
   color: #d0e9ec;
@@ -88,4 +143,10 @@ p {
   /* font-family: "Source Code Pro", monospace; */
   font-family: "Expletus Sans", cursive;
   font-weight: 800;
+}
+.top-container {
+  /* border-bottom: 2px solid #38adc2; */
+  height: 80px;
+  text-align: left;
+  margin-bottom: 30px;
 }
