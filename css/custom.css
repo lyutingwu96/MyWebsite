@@ -28,6 +28,16 @@ p {
 }
 
 /* navigation bar */
+.navbar-toggler-style {
+  border-width: 0;
+}
+
+.navbar-myicon {
+  color: #38adc2;
+}
+.navbar-myicon:hover {
+  color: lightcoral;
+}
 .nav-item {
   padding: 0 0 0 36px;
 }
