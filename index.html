@@ -2,43 +2,90 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lyu-Ting Wu</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="favicon.ico" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=family=Open+Sans&family=Source+Code+Pro:wght@400;500;600;700;900&display=swap"
+  <link rel="icon" href="./favicon.ico" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/custom.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=family=Open+Sans&family=Source+Code+Pro&display=swap"
     rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&family=Raleway:wght@300;400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-  <div class="bg-img"">
+  <section id="title">
+    <nav class="navbar  fixed-top  navbar-expand-md navbar-light navbar-style">
+      <h2 class="page-header"><a href="./index.html"><img src="./images/Leaf-mid.png" alt="icon"><span>Lyu-Ting
+            Wu</span></a> </h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link " href="./index.html"><span class="nav-item-style">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item"><a class="nav-link " href="./about.html"><span class="nav-item-style">About</span>
+              </a>
+            </li>
+            <li class="nav-item"><a class="nav-link " href=""><span class="nav-item-style">Resume</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+    <div class="bg-img">
       <div class=" banner-container">
-    <img src="./images/Leaf-light.png" alt="logo-light" class="logo-light">
-    <h1 class="title">Lyu-Ting Wu</h1>
+        <img src="./images/Leaf-light.png" alt="logo-light" class="banner-logo">
+        <h1 class="banner-title">Lyu-Ting Wu</h1>
 
-    <h3 class="subtitle">Coding | Gaming | Painting</h3>
+        <h3 class="banner-subtitle">Coding | Gaming | Painting</h3>
 
-  </div>
-  </div>
-  <div class="middle-container">
-    <a href="./about.html">About</a>
-    <a href="./contact.html">Contact</a>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit aperiam nulla architecto, eos minus ea eaque
-      voluptates facilis quos porro accusantium debitis, non, aut corporis. Sequi modi eos blanditiis vero.</p>
-  </div>
-  <div class="bottom-container">
-    <p class='copyright'>© 2020 Lyu-Ting Wu.</p>
-    <div class="footer-links">
-      <a class="footer-link" href="https://www.linkedin.com/in/lyutingwu/">LinkedIn</a>
-      <a class="footer-link" href="mailto:lyuting.wu@gmail.com">Email</a>
+      </div>
     </div>
-  </div>
+  </section>
+  <section id="projects">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 project-cover">
+          <h3>AAA</h3>
+          <p>aaa</p>
+        </div>
+        <div class="col-md-6 project-cover">
+          <h3>BBB</h3>
+          <p>bbb</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="bottom-container">
+      <p class='copyright'>© 2020 Lyu-Ting Wu.</p>
+      <div class="footer-links">
+        <a class="footer-link" href="https://www.linkedin.com/in/lyutingwu/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class="footer-link" href="mailto:lyuting.wu@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

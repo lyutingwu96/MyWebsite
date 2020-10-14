@@ -2,104 +2,132 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="favicon.ico" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=family=Open+Sans&family=Source+Code+Pro:wght@400;500;600;700;900&display=swap"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Lyu-Ting Wu</title>
+  <link rel="icon" href="./favicon.ico" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/custom.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=family=Open+Sans&family=Source+Code+Pro&display=swap"
     rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&family=Raleway:wght@300;400&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-  <div class="top-container">
+  <nav class="navbar  fixed-top  navbar-expand-md navbar-light navbar-style">
     <h2 class="page-header"><a href="./index.html"><img src="./images/Leaf-mid.png" alt="icon"><span>Lyu-Ting
           Wu</span></a> </h2>
-  </div>
-  <div class="middle-container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <img src="./images/self.png" alt="My-Image" class='my-img'>
-    <div class="profile">
-      <div class="greet-container">
-        <h3 class="greet">
-          Hi! I’m Lyu-Ting. I'm from Taipei, Taiwan.
-        </h3>
-        <h3 class="greet">I'm currently in the greater
-          Seattle area, pursuing my master degree.
-        </h3>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link " href="./index.html"><span class="nav-item-style">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link " href="./about.html"><span class="nav-item-style">About</span>
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link " href=""><span class="nav-item-style">Resume</span>
+            </a>
+          </li>
+
+        </ul>
       </div>
-      <br />
-      <div class="my-bgs">
-        <div class="my-bg">
+  </nav>
 
-          <div class="my-bg-content">
-            <h3 class="my-bg-title">Background</h3>
-            <p class="my-bg-p">
-              I'm currently a grad student major in Technology Innovation (MSTI) at
-              University of Washington Global Innovation Exchange (GIX). During
-              undergraduate, I majored in Computer Science, and have a dual degree of
-              Digital Content & Technology (DCT). Before attending the graduate school,
-              I was a research assistant and worked on a medical image processing
-              project and held Python + OpenCV workshops for undergraduate students.
-            </p>
-          </div>
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 project-cover">
+          <img src="./images/self.png" alt="My-Image" class='my-img'>
         </div>
-        <div class="my-bg">
-
-          <div class="my-bg-content">
-            <h3 class="my-bg-title">Interdisciplinary</h3>
-
-            <p class="my-bg-p">
-              Both MSTI and DCT are interdisciplinary programs. I learned my
-              design, physical prototyping, and game programming skills while
-              studying and working on projects in these programs. With my computer
-              science background, these experiences form different areas allows me to
-              think from other team members' perspective to better communicate with
-              them, therefore making me a team player.
-            </p>
+        <div class="col-lg-8 project-cover" id="about-text">
+          <div class="greet-container">
+            <h3 class="greet">
+              Hi! I’m Lyu-Ting. I'm from Taipei, Taiwan.
+            </h3>
+            <h3 class="greet">I'm currently in the greater
+              Seattle area, pursuing my master degree.
+            </h3>
           </div>
-        </div>
-        <div class="my-bg">
+          <br />
+          <div class="my-bgs">
+            <div class="my-bg">
 
-          <div class="my-bg-content">
-            <h3 class="my-bg-title">Hobby</h3>
-            <p class="my-bg-p">
-              During my free time, I dedicate myself to digital painting, doing fanarts
-              for comics or movies that I like. I have been learning drawing on my own
-              for more than 10 years. The self-learning experience enabled me to learn
-              new skills fast. Painting also makes me a passionate and patient person
-              that I always try my best to improve my works.
-            </p>
+              <div class="my-bg-content">
+                <h3 class="my-bg-title">Background</h3>
+                <p class="my-bg-p">
+                  I'm currently a grad student major in Technology Innovation (MSTI) at
+                  University of Washington Global Innovation Exchange (GIX). During
+                  undergraduate, I majored in Computer Science, and have a dual degree of
+                  Digital Content & Technology (DCT). Before attending the graduate school,
+                  I was a research assistant and worked on a medical image processing
+                  project and held Python + OpenCV workshops for undergraduate students.
+                </p>
+              </div>
+            </div>
+            <div class="my-bg">
+
+              <div class="my-bg-content">
+                <h3 class="my-bg-title">Interdisciplinary</h3>
+
+                <p class="my-bg-p">
+                  Both MSTI and DCT are interdisciplinary programs. I learned my
+                  design, physical prototyping, and game programming skills while
+                  studying and working on projects in these programs. With my computer
+                  science background, these experiences form different areas allows me to
+                  think from other team members' perspective to better communicate with
+                  them, therefore making me a team player.
+                </p>
+              </div>
+            </div>
+            <div class="my-bg">
+
+              <div class="my-bg-content">
+                <h3 class="my-bg-title">Hobby</h3>
+                <p class="my-bg-p">
+                  During my free time, I dedicate myself to digital painting, doing fanarts
+                  for comics or movies that I like. I have been learning drawing on my own
+                  for more than 10 years. The self-learning experience enabled me to learn
+                  new skills fast. Painting also makes me a passionate and patient person
+                  that I always try my best to improve my works.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-    <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-  </div> -->
+  </section>
 
-
-
-
-  </div>
-
-  <div class="bottom-container">
-    <p class='copyright'>© 2020 Lyu-Ting Wu.</p>
-    <div class="footer-links">
-      <a class="footer-link" href="https://www.linkedin.com/in/lyutingwu/">LinkedIn</a>
-      <a class="footer-link" href="mailto:lyuting.wu@gmail.com">Email</a>
+  <footer>
+    <div class="bottom-container">
+      <p class='copyright'>© 2020 Lyu-Ting Wu.</p>
+      <div class="footer-links">
+        <a class="footer-link" href="https://www.linkedin.com/in/lyutingwu/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class="footer-link" href="mailto:lyuting.wu@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
     </div>
-  </div>
-
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
