@@ -71,6 +71,32 @@ p {
 }
 
 /* Banner */
+@media screen and (min-width: 601px) {
+  .banner-logo {
+    height: 5rem;
+    width: 5rem;
+  }
+  .banner-subtitle {
+    font-size: 1.875rem;
+  }
+  .banner-title {
+    font-size: 3.125rem;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .banner-logo {
+    height: 3rem;
+    width: 3rem;
+  }
+  .banner-subtitle {
+    font-size: 1.2rem;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+}
 .banner-container {
   position: absolute;
   width: 100%;
@@ -87,20 +113,17 @@ p {
   /* Full height */
   height: 100vh;
 }
-.banner-logo {
-  height: 5rem;
-  width: 5rem;
-}
+
 .banner-subtitle {
   color: #d0e9ec;
-  font-size: 1.875rem;
+
   font-family: "Raleway", sans-serif;
   /* font-family: "Expletus Sans", cursive; */
   font-weight: 100;
 }
 .banner-title {
   color: #97efff;
-  font-size: 3.125rem;
+
   /* font-family: "Source Code Pro", monospace; */
   font-family: "Expletus Sans", cursive;
   font-weight: 800;
