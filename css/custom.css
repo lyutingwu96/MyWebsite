@@ -28,6 +28,7 @@ p {
 }
 
 /* navigation bar */
+
 .navbar-toggler-style {
   border-width: 0;
 }
@@ -38,11 +39,9 @@ p {
 .navbar-myicon:hover {
   color: lightcoral;
 }
-.nav-item {
-  padding: 0 0 0 36px;
-}
+
 .navbar-style {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #fffdf9;
 }
 .nav-item-style {
   color: #38adc2;
@@ -51,6 +50,10 @@ p {
 }
 .nav-item-style:hover {
   color: lightcoral;
+}
+.active-page {
+  color: lightcoral;
+  border-bottom: lightcoral solid 2px;
 }
 
 .page-header {
@@ -70,8 +73,8 @@ p {
   margin: 0px 10px 0 0;
 }
 
-/* Banner */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 768px) {
+  /* Banner */
   .banner-logo {
     height: 5rem;
     width: 5rem;
@@ -82,10 +85,15 @@ p {
   .banner-title {
     font-size: 3.125rem;
   }
+  /* navbar */
+  .nav-item {
+    padding: 0 0 0 36px;
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  /* Banner */
   .banner-logo {
     height: 3rem;
     width: 3rem;
@@ -96,7 +104,12 @@ p {
   .banner-title {
     font-size: 2rem;
   }
+  /* navbar */
+  .nav-item {
+    padding: 0 36 0 36px;
+  }
 }
+
 .banner-container {
   position: absolute;
   width: 100%;
@@ -155,6 +168,7 @@ p {
   height: auto;
 }
 .greet {
+  font-family: "Raleway", sans-serif;
   color: lightcoral;
 }
 .my-bg {
